@@ -1,0 +1,15 @@
+@import './mixins';
+
+
+
+header {
+@include flex-all-center;
+
+@include small-desktop {
+  color: red;
+}
+
+@include tablet {
+  background: #000;
+}
+}
