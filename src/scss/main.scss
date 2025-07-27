@@ -1,15 +1,6 @@
 @import './mixins';
+@import './base';
+@import './globals';
 
 
 
-header {
-@include flex-all-center;
-
-@include small-desktop {
-  color: red;
-}
-
-@include tablet {
-  background: #000;
-}
-}
