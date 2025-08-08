@@ -13,14 +13,9 @@ html {
 }
 
 .body {
-  position: relative;
   overflow-x: hidden;
   color: var(--neutral-100);
   background-color: var(--neutral-10);
-
-  &--fixed {
-    overflow-y: hidden;
-  }
 }
 
 img {
@@ -67,4 +62,10 @@ button {
   margin: 0 auto;
   padding: 0 var(--container-p);
   max-width: calc(var(--container-w) + (var(--container-p ) * 2));
+}
+
+.hidden {
+  font-size: 0;
+  opacity: 0;
+  visibility: hidden;
 }
