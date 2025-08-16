@@ -10,7 +10,6 @@
     min-height: calc(100dvh - 109px);
   }
 
-
   &::before {
     top: 106px;
     left: 151px;
@@ -87,10 +86,10 @@
   }
 
   &__left {
-      @include small-desktop {
-        max-width: 617px;
-      }
+    @include small-desktop {
+      max-width: 617px;
     }
+  }
 
   &__title {
     margin-bottom: 114px;
@@ -169,7 +168,7 @@
     background: var(--neutral-100);
 
     @include small-tablet {
-        padding: 12px 32px;
+      padding: 12px 32px;
     }
   }
 
@@ -189,12 +188,12 @@
     background: #fff;
 
     @include mini-desktop {
-        max-width:320px ;
-      }
+      max-width: 320px;
+    }
 
     &-img {
       @include mini-desktop {
-        max-width:280px ;
+        max-width: 280px;
       }
     }
 

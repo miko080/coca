@@ -64,15 +64,15 @@
   --container-w: 1200px;
 
   @include small-desktop {
-  --container-w: 1000px;
+    --container-w: 1000px;
   }
 
   @include tablet {
-  --container-w: 860px;
+    --container-w: 860px;
   }
 
   @include mobile {
-  --container-w: 480px;
+    --container-w: 480px;
   }
 
   // transition
@@ -87,10 +87,7 @@
   --z-index-2: 2;
   --z-index-3: 3;
   --z-index-4: 4;
-
 }
-
-
 
 [data-theme='dark'] {
   // Neutral colors
@@ -98,9 +95,9 @@
   --neutral-100: #fff;
   --neutral-140: #fff;
   --neutral-150: #fff;
-  --neutral-160: #E2F8F0;
+  --neutral-160: #e2f8f0;
 
-    // Logo color
+  // Logo color
   --logo-text: #fff;
   --logo-circle: #343542;
 

@@ -35,7 +35,6 @@
     }
   }
 
-
   &__list {
     @include flex-all-sb;
     gap: 56px;
@@ -78,9 +77,7 @@
       color: #7e8492;
     }
   }
-  
 
-  
   &__title,
   &__descr,
   &__item-title {
