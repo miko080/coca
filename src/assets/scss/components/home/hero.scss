@@ -7,7 +7,7 @@
   }
 
   @include small-mobile {
-    min-height: calc(100dvh - 128px);
+    min-height: calc(100dvh - 109px);
   }
 
 
@@ -87,8 +87,10 @@
   }
 
   &__left {
-    max-width: 595px;
-  }
+      @include small-desktop {
+        max-width: 617px;
+      }
+    }
 
   &__title {
     margin-bottom: 114px;
@@ -120,6 +122,12 @@
 
   &__subtitle {
     margin-bottom: 69px;
+
+    & br {
+      @include small-desktop {
+        display: none;
+      }
+    }
   }
 
   &__form {
@@ -250,10 +258,11 @@
     }
 
     &-body {
-      &-th {
+      &-td {
         font-weight: 600;
         font-size: 20px;
         line-height: 26px;
+        white-space: nowrap;
         color: #fff;
 
         &:nth-child(1) {

@@ -63,12 +63,23 @@
   --container-p: 15px;
   --container-w: 1200px;
 
+  @include small-desktop {
+  --container-w: 1000px;
+  }
+
+  @include tablet {
+  --container-w: 860px;
+  }
+
   @include mobile {
   --container-w: 480px;
   }
 
   // transition
   --transition: 0.2s ease-in-out;
+
+  // Overview-bg-color
+  --overview-bg: #1d1e25;
 
   // z-index
   --z-index-0: 0;
@@ -92,4 +103,7 @@
     // Logo color
   --logo-text: #fff;
   --logo-circle: #343542;
+
+  // Overview-bg-color
+  --overview-bg: #18181d;
 }
