@@ -3,8 +3,12 @@ import '../assets/scss/main.scss';
 // component
 import { useTheme } from './components/theme';
 import { useBurger } from './components/burger';
-import { useInsiderSlider } from './components/slider';
+import {
+  useInsiderSlider,
+  useTestimonialsSlider,
+} from './components/home/slider';
 
 useTheme();
 useBurger();
 useInsiderSlider();
+useTestimonialsSlider();

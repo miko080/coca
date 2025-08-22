@@ -6,6 +6,12 @@
 
     @include mobile {
       padding-top: 86px;
+      padding-bottom: 61px;
+    }
+
+    @include small-mobile {
+      padding-top: 86px;
+      padding-bottom: 41px;
     }
   }
 
@@ -24,7 +30,7 @@
     margin-bottom: 80px;
     font-weight: 500;
     line-height: 32px;
-    color: #7e8492;
+    color: var(--neutral-160);
 
     @include mobile {
       margin-bottom: 40px;
@@ -90,7 +96,7 @@
       margin-bottom: 16px;
       font-weight: 400;
       line-height: 150%;
-      color: #7e8492;
+      color: var(--neutral-160);
 
       @include small-mobile {
         flex-direction: column;

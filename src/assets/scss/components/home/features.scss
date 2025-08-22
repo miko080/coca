@@ -1,5 +1,5 @@
 .features {
-  padding: 100px 0 94px;
+  padding: 160px 0 94px;
   background-color: var(--neutral-10);
 
   @include mobile {
@@ -111,7 +111,7 @@
       &-descr {
         font-weight: 400;
         font-size: 8px;
-        color: #7e8492;
+        color: var(--neutral-160);
       }
     }
   }
