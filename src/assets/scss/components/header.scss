@@ -72,7 +72,6 @@
     background-color: var(--neutral-130);
     transform: translateY(7px);
     transition: background-color var(--transition);
-    cursor: pointer;
 
     &::before {
       content: '';
@@ -114,7 +113,7 @@
 
       &::before {
         left: 38px;
-        background-color: var(--focus-iris);
+        background-color: var(--primary-50);
       }
     }
   }
