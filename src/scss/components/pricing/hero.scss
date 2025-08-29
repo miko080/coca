@@ -228,7 +228,7 @@
         margin-right: 10px;
         width: 20px;
         height: 20px;
-        background: url('../../../icons/pricing-list-icon.svg') no-repeat;
+        background: url('../../../assets/icons/pricing-list-icon.svg') no-repeat;
       }
 
       &:not(:last-child) {
@@ -244,7 +244,7 @@
         color: var(--neutral-160);
 
         &::before {
-          background: url('../../../icons/pricing-list-inaccess-icon.svg')
+          background: url('../../../assets/icons/pricing-list-inaccess-icon.svg')
             no-repeat;
         }
       }
